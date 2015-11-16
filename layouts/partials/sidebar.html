@@ -1,14 +1,23 @@
-<h3>
-  Author
-</h3>
-
 <p>
   <div class="media">
-    <img src="http://www.gravatar.com/avatar/{{ .Site.Params.gravatar_id }}?s=100" alt="{{ .Site.Params.author_name }}" class="pull-left">
-    <div class="media-body">
-      <h4 class="media-heading">{{ .Site.Params.author_name }}</h4>
-    </div>
+    <img src="{{ .Site.Params.avatar_url }}" alt="{{ .Site.Params.author }}" class="pull-right">
   </div>
 </p>
+<p class="pull-right"> 
+<a href="https://twitter.com/uuqspace" class="pull-right">
+  TWITTER
+  <img src="https://g.twimg.com/dev/documentation/image/Twitter_logo_blue_48.png" width=24 height=24>
+</a>
+<br>
+<a href="https://github.com/luhkevin" class="pull-right">
+  GITHUB
+  <img src="http://vijayrc.com/vectorclocks/static/images/icon-github.png" width=24 height=24>
+</a>
+<br>
+<a href="http://letterboxd.com/lu6cifer/" class="pull-right">
+  LETTERBOXD
+  <img src="https://raw.githubusercontent.com/rcalderong/userscripts/master/img/letterboxd_icon.png" width=24 height=24>
+</a>
 
-<p><a href="https://twitter.com/{{ .Site.Params.twitter_username }}" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true" data-dnt="true" data-size="large">Follow @{{ .Site.Params.twitter_username }}</a></p>
+
+</p>

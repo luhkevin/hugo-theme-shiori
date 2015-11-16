@@ -7,6 +7,10 @@ tags = ["blog", "personal"]
 features = ["blog"]
 min_version= 0.13
 
+[slightly-modified-by]
+    name =  "Kevin Lu"
+    homepage = "uuq.space"
+
 [author]
     name =  "Shusaku Uesugi"
     homepage = "http://chibicode.com/"
